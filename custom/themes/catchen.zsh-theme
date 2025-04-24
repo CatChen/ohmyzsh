@@ -1,6 +1,6 @@
 PROMPT="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 PROMPT+=" %{$fg[cyan]%}%c%{$reset_color%} "
-RPROMPT+=" $(nvm_node_prompt_info | cut -d . -f 1)"
+RPROMPT+=' $(nvm_node_prompt_info)'
 
 ZSH_THEME_NVM_PROMPT_PREFIX="%{$fg_bold[green]%} "
 ZSH_THEME_NVM_PROMPT_SUFFIX="%{$reset_color%}"
